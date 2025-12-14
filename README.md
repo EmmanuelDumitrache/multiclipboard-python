@@ -28,7 +28,12 @@ This project demonstrates the use of file I/O, JSON serialization, and system cl
    ```bash
    cd multiclipboard-python
    ```
-3. Install dependencies:
+3. Create and activate a virtual environment (recommended):
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
+4. Install dependencies:
    ```bash
    pip install clipboard
    ```
