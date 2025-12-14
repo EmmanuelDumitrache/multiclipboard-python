@@ -57,6 +57,17 @@ python multiclipboard.py load <keyword>
 python multiclipboard.py list
 ```
 
+### Interactive Mode
+You can also run the commands without arguments to be prompted for input:
+```bash
+python multiclipboard.py save
+# Prompts for key
+```
+```bash
+python multiclipboard.py load
+# Prompts for key
+```
+
 ## Future Improvements
 - Add encryption for sensitive data.
 - Implement a graphical user interface (GUI) or system tray icon.
